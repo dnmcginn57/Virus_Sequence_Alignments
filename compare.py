@@ -19,7 +19,7 @@ from Bio.pairwise2 import format_alignment
 
 def compare_samples(samp1,samp2):
     alignments = pairwise2.align.globalxx(samp1[0],samp2[0],score_only=True)
-    print(samp1[1], "and",samp2[1]+":",alignments)
+    print(samp1[1], "and",samp2[1]+"Have:",alignments,"matching nucleotides on best alignment")
 
 if __name__ == "__main__":
     main_Seq_Path = sys.argv[1]
