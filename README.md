@@ -8,8 +8,8 @@
   * `hepatitis` - ~~actually this one just gives your computer hepatitis~~ More genbank files
   
  ## Instructions
- from the command line, run the python file with a command like `python3 compare.py <Sequence Path> <Folder Path>`.
- For example `python3 compare.py ./common_cold/rhinovirus_14.gb ./common_cold` make sure the file you link to and the folder
+ From the command line, run the python file with a command like `python3 compare.py <Sequence Path> <Folder Path>`.
+ For example `python3 compare.py ./common_cold/rhinovirus_14.gb ./common_cold`. Make sure the file you link to and the folder
  actually exists(very important)
  
  ## Notes
